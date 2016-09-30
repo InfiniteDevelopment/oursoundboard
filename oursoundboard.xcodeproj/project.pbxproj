@@ -15,6 +15,11 @@
 		84F582D41D9DDBC700E70AD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F582D21D9DDBC700E70AD9 /* LaunchScreen.storyboard */; };
 		84F582DF1D9DDBC800E70AD9 /* oursoundboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F582DE1D9DDBC800E70AD9 /* oursoundboardTests.swift */; };
 		84F582EA1D9DDBC800E70AD9 /* oursoundboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F582E91D9DDBC800E70AD9 /* oursoundboardUITests.swift */; };
+		84F582F91D9DDC4F00E70AD9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F582F81D9DDC4F00E70AD9 /* AudioToolbox.framework */; };
+		84F582FB1D9DDC5A00E70AD9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F582FA1D9DDC5A00E70AD9 /* AVFoundation.framework */; };
+		84F582FF1D9DDF1A00E70AD9 /* 21_savage.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84F582FC1D9DDF1A00E70AD9 /* 21_savage.mp3 */; };
+		84F583001D9DDF1A00E70AD9 /* 21.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84F582FD1D9DDF1A00E70AD9 /* 21.mp3 */; };
+		84F583011D9DDF1A00E70AD9 /* its_a_knife.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84F582FE1D9DDF1A00E70AD9 /* its_a_knife.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		84F582E51D9DDBC800E70AD9 /* oursoundboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oursoundboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F582E91D9DDBC800E70AD9 /* oursoundboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oursoundboardUITests.swift; sourceTree = "<group>"; };
 		84F582EB1D9DDBC800E70AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F582F81D9DDC4F00E70AD9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		84F582FA1D9DDC5A00E70AD9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		84F582FC1D9DDF1A00E70AD9 /* 21_savage.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 21_savage.mp3; path = oursoundboard/21_savage.mp3; sourceTree = "<group>"; };
+		84F582FD1D9DDF1A00E70AD9 /* 21.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 21.mp3; path = oursoundboard/21.mp3; sourceTree = "<group>"; };
+		84F582FE1D9DDF1A00E70AD9 /* its_a_knife.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = its_a_knife.mp3; path = oursoundboard/its_a_knife.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F582FB1D9DDC5A00E70AD9 /* AVFoundation.framework in Frameworks */,
+				84F582F91D9DDC4F00E70AD9 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +91,14 @@
 		84F582BA1D9DDBC700E70AD9 = {
 			isa = PBXGroup;
 			children = (
+				84F582FC1D9DDF1A00E70AD9 /* 21_savage.mp3 */,
+				84F582FD1D9DDF1A00E70AD9 /* 21.mp3 */,
+				84F582FE1D9DDF1A00E70AD9 /* its_a_knife.mp3 */,
 				84F582C51D9DDBC700E70AD9 /* oursoundboard */,
 				84F582DD1D9DDBC800E70AD9 /* oursoundboardTests */,
 				84F582E81D9DDBC800E70AD9 /* oursoundboardUITests */,
 				84F582C41D9DDBC700E70AD9 /* Products */,
+				84F582F71D9DDC4F00E70AD9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +142,15 @@
 				84F582EB1D9DDBC800E70AD9 /* Info.plist */,
 			);
 			path = oursoundboardUITests;
+			sourceTree = "<group>";
+		};
+		84F582F71D9DDC4F00E70AD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84F582FA1D9DDC5A00E70AD9 /* AVFoundation.framework */,
+				84F582F81D9DDC4F00E70AD9 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +260,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F583001D9DDF1A00E70AD9 /* 21.mp3 in Resources */,
+				84F583011D9DDF1A00E70AD9 /* its_a_knife.mp3 in Resources */,
+				84F582FF1D9DDF1A00E70AD9 /* 21_savage.mp3 in Resources */,
 				84F582D41D9DDBC700E70AD9 /* LaunchScreen.storyboard in Resources */,
 				84F582D11D9DDBC700E70AD9 /* Assets.xcassets in Resources */,
 				84F582CC1D9DDBC700E70AD9 /* Main.storyboard in Resources */,
@@ -509,6 +537,7 @@
 				84F582F01D9DDBC800E70AD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84F582F11D9DDBC800E70AD9 /* Build configuration list for PBXNativeTarget "oursoundboardTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +546,7 @@
 				84F582F31D9DDBC800E70AD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84F582F41D9DDBC800E70AD9 /* Build configuration list for PBXNativeTarget "oursoundboardUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +555,7 @@
 				84F582F61D9DDBC800E70AD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
