@@ -19,6 +19,11 @@ var twentyOneAudio = AVAudioPlayer()
 var savageModeFile = NSURL(fileURLWithPath: Bundle.main.path(forResource: "21_savage", ofType: "mp3")!)
 var savageModeAudio = AVAudioPlayer()
 
+let imageName = "yourImage.png"
+let image = UIImage(named: imageName)
+let imageView = UIImageView(image: image!)
+
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -35,6 +40,8 @@ class ViewController: UIViewController {
         twentyOneAudio.prepareToPlay()
         savageModeAudio = try! AVAudioPlayer(contentsOf: savageModeFile as URL, fileTypeHint: nil)
         savageModeAudio.prepareToPlay()
+        
+        print("hello from image handler")
     }
     
     @IBAction func itsAKnifeButton(_ sender: UIButton) {
@@ -53,17 +60,16 @@ class ViewController: UIViewController {
         if (itsAKnifeAudio.isPlaying) {
             itsAKnifeAudio.stop()
             itsAKnifeAudio.currentTime = 0
-        } else if(twentyOneAudio.isPlaying){
+        } else if (twentyOneAudio.isPlaying) {
             twentyOneAudio.stop()
             twentyOneAudio.currentTime = 0
-        } else if(savageModeAudio.isPlaying){
+        } else if (savageModeAudio.isPlaying) {
             savageModeAudio.stop()
             savageModeAudio.currentTime = 0
         } else {
             print("Nothing is playing!")
         }
     }
-    
     
 
     override func didReceiveMemoryWarning() {

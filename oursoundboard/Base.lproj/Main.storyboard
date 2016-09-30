@@ -26,6 +26,14 @@
                                     <action selector="twentyOneButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="caE-qF-tio"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mOE-Aj-cpb">
+                                <frame key="frameInset" minX="16" minY="318" width="35" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Knife"/>
+                                <connections>
+                                    <action selector="itsAKnifeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="krj-9Y-JhW"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BFL-Qi-Hu8">
                                 <frame key="frameInset" minX="266" minY="318" width="93" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -42,20 +50,13 @@
                                     <action selector="stopButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Deb-D0-Y2q"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mOE-Aj-cpb">
-                                <frame key="frameInset" minX="16" minY="318" width="35" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Knife"/>
-                                <connections>
-                                    <action selector="itsAKnifeButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="krj-9Y-JhW"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
         </scene>
     </scenes>
 </document>
