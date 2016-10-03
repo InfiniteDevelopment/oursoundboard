@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84D1779B1DA1DA5600CD16A1 /* RoutingHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D1779A1DA1DA5600CD16A1 /* RoutingHandlers.swift */; };
 		_LinkFileRef_CHTTPParser_via_PerfectHTTPServer /* CHTTPParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CHTTPParser" /* CHTTPParser.framework */; };
 		_LinkFileRef_CHTTPParser_via_oursoundboard_api /* CHTTPParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CHTTPParser" /* CHTTPParser.framework */; };
 		_LinkFileRef_COpenSSL_via_CHTTPParser /* COpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_COpenSSL" /* COpenSSL.framework */; };
@@ -801,6 +802,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84D1779A1DA1DA5600CD16A1 /* RoutingHandlers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutingHandlers.swift; sourceTree = "<group>"; };
 		__PBXFileRef_Package.swift /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/COpenSSL-2.0.1/COpenSSL/a_bitstr.c" /* a_bitstr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = a_bitstr.c; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/COpenSSL-2.0.1/COpenSSL/a_bool.c" /* a_bool.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = a_bool.c; sourceTree = "<group>"; };
@@ -2442,6 +2444,7 @@
 			isa = PBXGroup;
 			children = (
 				__PBXFileRef_Sources/main.swift /* main.swift */,
+				84D1779A1DA1DA5600CD16A1 /* RoutingHandlers.swift */,
 			);
 			name = oursoundboard_api;
 			path = Sources;
@@ -3371,6 +3374,7 @@
 				"__src_cc_ref_Packages/PerfectLib-2.0.0/Sources/PerfectLib/Log.swift" /* Log.swift in Sources */,
 				"__src_cc_ref_Packages/PerfectLib-2.0.0/Sources/PerfectLib/PerfectError.swift" /* PerfectError.swift in Sources */,
 				"__src_cc_ref_Packages/PerfectLib-2.0.0/Sources/PerfectLib/PerfectServer.swift" /* PerfectServer.swift in Sources */,
+				84D1779B1DA1DA5600CD16A1 /* RoutingHandlers.swift in Sources */,
 				"__src_cc_ref_Packages/PerfectLib-2.0.0/Sources/PerfectLib/SwiftCompatibility.swift" /* SwiftCompatibility.swift in Sources */,
 				"__src_cc_ref_Packages/PerfectLib-2.0.0/Sources/PerfectLib/SysProcess.swift" /* SysProcess.swift in Sources */,
 				"__src_cc_ref_Packages/PerfectLib-2.0.0/Sources/PerfectLib/Utilities.swift" /* Utilities.swift in Sources */,

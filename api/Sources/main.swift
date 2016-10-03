@@ -1,3 +1,11 @@
+//
+//  main.swift
+//  oursoundboard_api
+//
+//  Created by Xavier D. Johnson on 10/2/16.
+//
+//
+
 import PerfectLib
 import PerfectHTTP
 import PerfectHTTPServer
@@ -5,18 +13,23 @@ import PerfectHTTPServer
 // Create HTTP server.
 let server = HTTPServer()
 
+// Add our routes.
+let routes = makeURLRoutes()
+server.addRoutes(routes)
+
 // Register your own routes and handlers
-var routes = Routes()
-routes.add(method: .get, uri: "/", handler: {
+//var routes = Routes()
+/*routes.add(method: .get, uri: "/", handler: {
     request, response in
     response.setHeader(.contentType, value: "text/html")
     response.appendBody(string: "<html><title>Hello, world!</title><body>Hello, world!</body></html>")
     response.completed()
     }
-)
+)*/
 
 // Add the routes to the server.
-server.addRoutes(routes)
+//server.addRoutes(routes)
+
 
 // Set a listen port of 8181
 server.serverPort = 8181
