@@ -2,7 +2,7 @@
 import PackageDescription
  
 let package = Package(
-    name: "OURsoundboard",
+    name: "oursoundboard_api",
     dependencies: [
         .Package(
         url: "https://github.com/PerfectlySoft/Perfect-HTTPServer.git", 

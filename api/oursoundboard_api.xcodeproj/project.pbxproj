@@ -7,30 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		_LinkFileRef_CHTTPParser_via_OURsoundboard /* CHTTPParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CHTTPParser" /* CHTTPParser.framework */; };
 		_LinkFileRef_CHTTPParser_via_PerfectHTTPServer /* CHTTPParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CHTTPParser" /* CHTTPParser.framework */; };
+		_LinkFileRef_CHTTPParser_via_oursoundboard_api /* CHTTPParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CHTTPParser" /* CHTTPParser.framework */; };
 		_LinkFileRef_COpenSSL_via_CHTTPParser /* COpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_COpenSSL" /* COpenSSL.framework */; };
-		_LinkFileRef_COpenSSL_via_OURsoundboard /* COpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_COpenSSL" /* COpenSSL.framework */; };
 		_LinkFileRef_COpenSSL_via_PerfectHTTP /* COpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_COpenSSL" /* COpenSSL.framework */; };
 		_LinkFileRef_COpenSSL_via_PerfectHTTPServer /* COpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_COpenSSL" /* COpenSSL.framework */; };
 		_LinkFileRef_COpenSSL_via_PerfectNet /* COpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_COpenSSL" /* COpenSSL.framework */; };
-		_LinkFileRef_PerfectHTTPServer_via_OURsoundboard /* PerfectHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectHTTPServer" /* PerfectHTTPServer.framework */; };
+		_LinkFileRef_COpenSSL_via_oursoundboard_api /* COpenSSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_COpenSSL" /* COpenSSL.framework */; };
+		_LinkFileRef_PerfectHTTPServer_via_oursoundboard_api /* PerfectHTTPServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectHTTPServer" /* PerfectHTTPServer.framework */; };
 		_LinkFileRef_PerfectHTTP_via_CHTTPParser /* PerfectHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectHTTP" /* PerfectHTTP.framework */; };
-		_LinkFileRef_PerfectHTTP_via_OURsoundboard /* PerfectHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectHTTP" /* PerfectHTTP.framework */; };
 		_LinkFileRef_PerfectHTTP_via_PerfectHTTPServer /* PerfectHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectHTTP" /* PerfectHTTP.framework */; };
+		_LinkFileRef_PerfectHTTP_via_oursoundboard_api /* PerfectHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectHTTP" /* PerfectHTTP.framework */; };
 		_LinkFileRef_PerfectLib_via_CHTTPParser /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectLib" /* PerfectLib.framework */; };
-		_LinkFileRef_PerfectLib_via_OURsoundboard /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectLib" /* PerfectLib.framework */; };
 		_LinkFileRef_PerfectLib_via_PerfectHTTP /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectLib" /* PerfectLib.framework */; };
 		_LinkFileRef_PerfectLib_via_PerfectHTTPServer /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectLib" /* PerfectLib.framework */; };
+		_LinkFileRef_PerfectLib_via_oursoundboard_api /* PerfectLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectLib" /* PerfectLib.framework */; };
 		_LinkFileRef_PerfectNet_via_CHTTPParser /* PerfectNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectNet" /* PerfectNet.framework */; };
-		_LinkFileRef_PerfectNet_via_OURsoundboard /* PerfectNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectNet" /* PerfectNet.framework */; };
 		_LinkFileRef_PerfectNet_via_PerfectHTTP /* PerfectNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectNet" /* PerfectNet.framework */; };
 		_LinkFileRef_PerfectNet_via_PerfectHTTPServer /* PerfectNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectNet" /* PerfectNet.framework */; };
+		_LinkFileRef_PerfectNet_via_oursoundboard_api /* PerfectNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectNet" /* PerfectNet.framework */; };
 		_LinkFileRef_PerfectThread_via_CHTTPParser /* PerfectThread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectThread" /* PerfectThread.framework */; };
-		_LinkFileRef_PerfectThread_via_OURsoundboard /* PerfectThread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectThread" /* PerfectThread.framework */; };
 		_LinkFileRef_PerfectThread_via_PerfectHTTP /* PerfectThread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectThread" /* PerfectThread.framework */; };
 		_LinkFileRef_PerfectThread_via_PerfectHTTPServer /* PerfectThread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectThread" /* PerfectThread.framework */; };
 		_LinkFileRef_PerfectThread_via_PerfectNet /* PerfectThread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectThread" /* PerfectThread.framework */; };
+		_LinkFileRef_PerfectThread_via_oursoundboard_api /* PerfectThread.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PerfectThread" /* PerfectThread.framework */; };
 		"__src_cc_ref_Packages/COpenSSL-2.0.1/COpenSSL/a_bitstr.c" /* a_bitstr.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/COpenSSL-2.0.1/COpenSSL/a_bitstr.c" /* a_bitstr.c */; };
 		"__src_cc_ref_Packages/COpenSSL-2.0.1/COpenSSL/a_bool.c" /* a_bool.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/COpenSSL-2.0.1/COpenSSL/a_bool.c" /* a_bool.c */; };
 		"__src_cc_ref_Packages/COpenSSL-2.0.1/COpenSSL/a_bytes.c" /* a_bytes.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/COpenSSL-2.0.1/COpenSSL/a_bytes.c" /* a_bytes.c */; };
@@ -749,49 +749,49 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		84F583021D9E0C4200E70AD9 /* PBXContainerItemProxy */ = {
+		84D177931DA1D7E100CD16A1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_COpenSSL";
 			remoteInfo = COpenSSL;
 		};
-		84F583031D9E0C4200E70AD9 /* PBXContainerItemProxy */ = {
+		84D177941DA1D7E100CD16A1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_PerfectThread";
 			remoteInfo = PerfectThread;
 		};
-		84F583041D9E0C4200E70AD9 /* PBXContainerItemProxy */ = {
+		84D177951DA1D7E100CD16A1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_PerfectLib";
 			remoteInfo = PerfectLib;
 		};
-		84F583051D9E0C4200E70AD9 /* PBXContainerItemProxy */ = {
+		84D177961DA1D7E100CD16A1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_PerfectNet";
 			remoteInfo = PerfectNet;
 		};
-		84F583061D9E0C4200E70AD9 /* PBXContainerItemProxy */ = {
+		84D177971DA1D7E100CD16A1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_PerfectHTTP";
 			remoteInfo = PerfectHTTP;
 		};
-		84F583071D9E0C4200E70AD9 /* PBXContainerItemProxy */ = {
+		84D177981DA1D7E100CD16A1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_CHTTPParser";
 			remoteInfo = CHTTPParser;
 		};
-		84F583081D9E0C4200E70AD9 /* PBXContainerItemProxy */ = {
+		84D177991DA1D7E100CD16A1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
@@ -801,7 +801,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		__PBXFileRef_OURsoundboard.xcodeproj/Configs/Project.xcconfig /* OURsoundboard.xcodeproj/Configs/Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = OURsoundboard.xcodeproj/Configs/Project.xcconfig; sourceTree = "<group>"; };
 		__PBXFileRef_Package.swift /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/COpenSSL-2.0.1/COpenSSL/a_bitstr.c" /* a_bitstr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = a_bitstr.c; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/COpenSSL-2.0.1/COpenSSL/a_bool.c" /* a_bool.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = a_bool.c; sourceTree = "<group>"; };
@@ -1518,14 +1517,15 @@
 		"__PBXFileRef_Packages/PerfectThread-2.0.1/Sources/ThreadQueue.swift" /* ThreadQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadQueue.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/PerfectThread-2.0.1/Sources/Threading.swift" /* Threading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Threading.swift; sourceTree = "<group>"; };
 		__PBXFileRef_Sources/main.swift /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		__PBXFileRef_oursoundboard_api.xcodeproj/Configs/Project.xcconfig /* oursoundboard_api.xcodeproj/Configs/Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = oursoundboard_api.xcodeproj/Configs/Project.xcconfig; sourceTree = "<group>"; };
 		"_____Product_CHTTPParser" /* CHTTPParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CHTTPParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_COpenSSL" /* COpenSSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = COpenSSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_OURsoundboard" /* OURsoundboard */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = OURsoundboard; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_PerfectHTTP" /* PerfectHTTP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectHTTP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_PerfectHTTPServer" /* PerfectHTTPServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectHTTPServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_PerfectLib" /* PerfectLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_PerfectNet" /* PerfectNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_PerfectThread" /* PerfectThread.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectThread.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_oursoundboard_api" /* oursoundboard_api */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = oursoundboard_api; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1545,20 +1545,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		"___LinkPhase_OURsoundboard" /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-				_LinkFileRef_PerfectLib_via_OURsoundboard /* PerfectLib.framework in Frameworks */,
-				_LinkFileRef_COpenSSL_via_OURsoundboard /* COpenSSL.framework in Frameworks */,
-				_LinkFileRef_PerfectThread_via_OURsoundboard /* PerfectThread.framework in Frameworks */,
-				_LinkFileRef_PerfectNet_via_OURsoundboard /* PerfectNet.framework in Frameworks */,
-				_LinkFileRef_PerfectHTTP_via_OURsoundboard /* PerfectHTTP.framework in Frameworks */,
-				_LinkFileRef_CHTTPParser_via_OURsoundboard /* CHTTPParser.framework in Frameworks */,
-				_LinkFileRef_PerfectHTTPServer_via_OURsoundboard /* PerfectHTTPServer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1609,6 +1595,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		"___LinkPhase_oursoundboard_api" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_PerfectLib_via_oursoundboard_api /* PerfectLib.framework in Frameworks */,
+				_LinkFileRef_COpenSSL_via_oursoundboard_api /* COpenSSL.framework in Frameworks */,
+				_LinkFileRef_PerfectThread_via_oursoundboard_api /* PerfectThread.framework in Frameworks */,
+				_LinkFileRef_PerfectNet_via_oursoundboard_api /* PerfectNet.framework in Frameworks */,
+				_LinkFileRef_PerfectHTTP_via_oursoundboard_api /* PerfectHTTP.framework in Frameworks */,
+				_LinkFileRef_CHTTPParser_via_oursoundboard_api /* CHTTPParser.framework in Frameworks */,
+				_LinkFileRef_PerfectHTTPServer_via_oursoundboard_api /* PerfectHTTPServer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -1647,7 +1647,7 @@
 				"_____Product_PerfectHTTP" /* PerfectHTTP.framework */,
 				"_____Product_CHTTPParser" /* CHTTPParser.framework */,
 				"_____Product_PerfectHTTPServer" /* PerfectHTTPServer.framework */,
-				"_____Product_OURsoundboard" /* OURsoundboard */,
+				"_____Product_oursoundboard_api" /* oursoundboard_api */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1655,7 +1655,7 @@
 		"_____Configs_" /* Configs */ = {
 			isa = PBXGroup;
 			children = (
-				__PBXFileRef_OURsoundboard.xcodeproj/Configs/Project.xcconfig /* OURsoundboard.xcodeproj/Configs/Project.xcconfig */,
+				__PBXFileRef_oursoundboard_api.xcodeproj/Configs/Project.xcconfig /* oursoundboard_api.xcodeproj/Configs/Project.xcconfig */,
 			);
 			name = Configs;
 			sourceTree = "<group>";
@@ -1663,7 +1663,7 @@
 		"_____Sources_" /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				"_______Group_OURsoundboard" /* OURsoundboard */,
+				"_______Group_oursoundboard_api" /* oursoundboard_api */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -2367,15 +2367,6 @@
 			path = "Packages/COpenSSL-2.0.1/COpenSSL";
 			sourceTree = "<group>";
 		};
-		"_______Group_OURsoundboard" /* OURsoundboard */ = {
-			isa = PBXGroup;
-			children = (
-				__PBXFileRef_Sources/main.swift /* main.swift */,
-			);
-			name = OURsoundboard;
-			path = Sources;
-			sourceTree = "<group>";
-		};
 		"_______Group_PerfectHTTP" /* PerfectHTTP */ = {
 			isa = PBXGroup;
 			children = (
@@ -2447,6 +2438,15 @@
 			path = "Packages/PerfectThread-2.0.1/Sources";
 			sourceTree = "<group>";
 		};
+		"_______Group_oursoundboard_api" /* oursoundboard_api */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Sources/main.swift /* main.swift */,
+			);
+			name = oursoundboard_api;
+			path = Sources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2486,29 +2486,6 @@
 			productName = COpenSSL;
 			productReference = "_____Product_COpenSSL" /* COpenSSL.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		"______Target_OURsoundboard" /* OURsoundboard */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = "_______Confs_OURsoundboard" /* Build configuration list for PBXNativeTarget "OURsoundboard" */;
-			buildPhases = (
-				CompilePhase_OURsoundboard /* Sources */,
-				"___LinkPhase_OURsoundboard" /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				__Dependency_PerfectLib /* PBXTargetDependency */,
-				__Dependency_COpenSSL /* PBXTargetDependency */,
-				__Dependency_PerfectThread /* PBXTargetDependency */,
-				__Dependency_PerfectNet /* PBXTargetDependency */,
-				__Dependency_PerfectHTTP /* PBXTargetDependency */,
-				__Dependency_CHTTPParser /* PBXTargetDependency */,
-				__Dependency_PerfectHTTPServer /* PBXTargetDependency */,
-			);
-			name = OURsoundboard;
-			productName = OURsoundboard;
-			productReference = "_____Product_OURsoundboard" /* OURsoundboard */;
-			productType = "com.apple.product-type.tool";
 		};
 		"______Target_PerfectHTTP" /* PerfectHTTP */ = {
 			isa = PBXNativeTarget;
@@ -2602,6 +2579,29 @@
 			productReference = "_____Product_PerfectThread" /* PerfectThread.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		"______Target_oursoundboard_api" /* oursoundboard_api */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_oursoundboard_api" /* Build configuration list for PBXNativeTarget "oursoundboard_api" */;
+			buildPhases = (
+				CompilePhase_oursoundboard_api /* Sources */,
+				"___LinkPhase_oursoundboard_api" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_PerfectLib /* PBXTargetDependency */,
+				__Dependency_COpenSSL /* PBXTargetDependency */,
+				__Dependency_PerfectThread /* PBXTargetDependency */,
+				__Dependency_PerfectNet /* PBXTargetDependency */,
+				__Dependency_PerfectHTTP /* PBXTargetDependency */,
+				__Dependency_CHTTPParser /* PBXTargetDependency */,
+				__Dependency_PerfectHTTPServer /* PBXTargetDependency */,
+			);
+			name = oursoundboard_api;
+			productName = oursoundboard_api;
+			productReference = "_____Product_oursoundboard_api" /* oursoundboard_api */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -2610,7 +2610,7 @@
 			attributes = {
 				LastUpgradeCheck = 9999;
 			};
-			buildConfigurationList = "___RootConfs_" /* Build configuration list for PBXProject "OURsoundboard" */;
+			buildConfigurationList = "___RootConfs_" /* Build configuration list for PBXProject "oursoundboard_api" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -2629,7 +2629,7 @@
 				"______Target_PerfectHTTP" /* PerfectHTTP */,
 				"______Target_CHTTPParser" /* CHTTPParser */,
 				"______Target_PerfectHTTPServer" /* PerfectHTTPServer */,
-				"______Target_OURsoundboard" /* OURsoundboard */,
+				"______Target_oursoundboard_api" /* oursoundboard_api */,
 			);
 		};
 /* End PBXProject section */
@@ -3332,14 +3332,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CompilePhase_OURsoundboard /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				__src_cc_ref_Sources/main.swift /* main.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CompilePhase_PerfectHTTP /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
@@ -3406,43 +3398,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CompilePhase_oursoundboard_api /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				__src_cc_ref_Sources/main.swift /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		__Dependency_CHTTPParser /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_CHTTPParser" /* CHTTPParser */;
-			targetProxy = 84F583071D9E0C4200E70AD9 /* PBXContainerItemProxy */;
+			targetProxy = 84D177981DA1D7E100CD16A1 /* PBXContainerItemProxy */;
 		};
 		__Dependency_COpenSSL /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_COpenSSL" /* COpenSSL */;
-			targetProxy = 84F583021D9E0C4200E70AD9 /* PBXContainerItemProxy */;
+			targetProxy = 84D177931DA1D7E100CD16A1 /* PBXContainerItemProxy */;
 		};
 		__Dependency_PerfectHTTP /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_PerfectHTTP" /* PerfectHTTP */;
-			targetProxy = 84F583061D9E0C4200E70AD9 /* PBXContainerItemProxy */;
+			targetProxy = 84D177971DA1D7E100CD16A1 /* PBXContainerItemProxy */;
 		};
 		__Dependency_PerfectHTTPServer /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_PerfectHTTPServer" /* PerfectHTTPServer */;
-			targetProxy = 84F583081D9E0C4200E70AD9 /* PBXContainerItemProxy */;
+			targetProxy = 84D177991DA1D7E100CD16A1 /* PBXContainerItemProxy */;
 		};
 		__Dependency_PerfectLib /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_PerfectLib" /* PerfectLib */;
-			targetProxy = 84F583041D9E0C4200E70AD9 /* PBXContainerItemProxy */;
+			targetProxy = 84D177951DA1D7E100CD16A1 /* PBXContainerItemProxy */;
 		};
 		__Dependency_PerfectNet /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_PerfectNet" /* PerfectNet */;
-			targetProxy = 84F583051D9E0C4200E70AD9 /* PBXContainerItemProxy */;
+			targetProxy = 84D177961DA1D7E100CD16A1 /* PBXContainerItemProxy */;
 		};
 		__Dependency_PerfectThread /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_PerfectThread" /* PerfectThread */;
-			targetProxy = 84F583031D9E0C4200E70AD9 /* PBXContainerItemProxy */;
+			targetProxy = 84D177941DA1D7E100CD16A1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -3453,10 +3453,10 @@
 				DEFINES_MODULE = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				HEADER_SEARCH_PATHS = "/Users/xavierdjohnson/Work/oursoundboard_api/Packages/COpenSSL-2.0.1/COpenSSL/include";
-				INFOPLIST_FILE = OURsoundboard.xcodeproj/CHTTPParser_Info.plist;
+				HEADER_SEARCH_PATHS = "/Users/xavierdjohnson/Work/oursoundboard/api/Packages/COpenSSL-2.0.1/COpenSSL/include";
+				INFOPLIST_FILE = oursoundboard_api.xcodeproj/CHTTPParser_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				MODULEMAP_FILE = OURsoundboard.xcodeproj/GeneratedModuleMap/CHTTPParser/module.modulemap;
+				MODULEMAP_FILE = oursoundboard_api.xcodeproj/GeneratedModuleMap/CHTTPParser/module.modulemap;
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = CHTTPParser;
@@ -3472,7 +3472,7 @@
 				DEFINES_MODULE = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				INFOPLIST_FILE = OURsoundboard.xcodeproj/COpenSSL_Info.plist;
+				INFOPLIST_FILE = oursoundboard_api.xcodeproj/COpenSSL_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				MODULEMAP_FILE = "Packages/COpenSSL-2.0.1/COpenSSL/include/module.modulemap";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -3484,33 +3484,13 @@
 			};
 			name = Release;
 		};
-		_ReleaseConf_OURsoundboard /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/**",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"/Users/xavierdjohnson/Work/oursoundboard_api/Packages/COpenSSL-2.0.1/COpenSSL/include",
-					"/Users/xavierdjohnson/Work/oursoundboard_api/Packages/PerfectHTTPServer-2.0.0/Sources/CHTTPParser/include",
-				);
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
 		_ReleaseConf_PerfectHTTP /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				HEADER_SEARCH_PATHS = "/Users/xavierdjohnson/Work/oursoundboard_api/Packages/COpenSSL-2.0.1/COpenSSL/include";
-				INFOPLIST_FILE = OURsoundboard.xcodeproj/PerfectHTTP_Info.plist;
+				HEADER_SEARCH_PATHS = "/Users/xavierdjohnson/Work/oursoundboard/api/Packages/COpenSSL-2.0.1/COpenSSL/include";
+				INFOPLIST_FILE = oursoundboard_api.xcodeproj/PerfectHTTP_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -3527,10 +3507,10 @@
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				HEADER_SEARCH_PATHS = (
-					"/Users/xavierdjohnson/Work/oursoundboard_api/Packages/COpenSSL-2.0.1/COpenSSL/include",
-					"/Users/xavierdjohnson/Work/oursoundboard_api/Packages/PerfectHTTPServer-2.0.0/Sources/CHTTPParser/include",
+					"/Users/xavierdjohnson/Work/oursoundboard/api/Packages/COpenSSL-2.0.1/COpenSSL/include",
+					"/Users/xavierdjohnson/Work/oursoundboard/api/Packages/PerfectHTTPServer-2.0.0/Sources/CHTTPParser/include",
 				);
-				INFOPLIST_FILE = OURsoundboard.xcodeproj/PerfectHTTPServer_Info.plist;
+				INFOPLIST_FILE = oursoundboard_api.xcodeproj/PerfectHTTPServer_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -3546,7 +3526,7 @@
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				INFOPLIST_FILE = OURsoundboard.xcodeproj/PerfectLib_Info.plist;
+				INFOPLIST_FILE = oursoundboard_api.xcodeproj/PerfectLib_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -3562,8 +3542,8 @@
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				HEADER_SEARCH_PATHS = "/Users/xavierdjohnson/Work/oursoundboard_api/Packages/COpenSSL-2.0.1/COpenSSL/include";
-				INFOPLIST_FILE = OURsoundboard.xcodeproj/PerfectNet_Info.plist;
+				HEADER_SEARCH_PATHS = "/Users/xavierdjohnson/Work/oursoundboard/api/Packages/COpenSSL-2.0.1/COpenSSL/include";
+				INFOPLIST_FILE = oursoundboard_api.xcodeproj/PerfectNet_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -3579,7 +3559,7 @@
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				INFOPLIST_FILE = OURsoundboard.xcodeproj/PerfectThread_Info.plist;
+				INFOPLIST_FILE = oursoundboard_api.xcodeproj/PerfectThread_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -3590,16 +3570,33 @@
 			};
 			name = Release;
 		};
+		_ReleaseConf_oursoundboard_api /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				HEADER_SEARCH_PATHS = (
+					"/Users/xavierdjohnson/Work/oursoundboard/api/Packages/COpenSSL-2.0.1/COpenSSL/include",
+					"/Users/xavierdjohnson/Work/oursoundboard/api/Packages/PerfectHTTPServer-2.0.0/Sources/CHTTPParser/include",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		"___DebugConf_CHTTPParser" /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				HEADER_SEARCH_PATHS = "/Users/xavierdjohnson/Work/oursoundboard_api/Packages/COpenSSL-2.0.1/COpenSSL/include";
-				INFOPLIST_FILE = OURsoundboard.xcodeproj/CHTTPParser_Info.plist;
+				HEADER_SEARCH_PATHS = "/Users/xavierdjohnson/Work/oursoundboard/api/Packages/COpenSSL-2.0.1/COpenSSL/include";
+				INFOPLIST_FILE = oursoundboard_api.xcodeproj/CHTTPParser_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				MODULEMAP_FILE = OURsoundboard.xcodeproj/GeneratedModuleMap/CHTTPParser/module.modulemap;
+				MODULEMAP_FILE = oursoundboard_api.xcodeproj/GeneratedModuleMap/CHTTPParser/module.modulemap;
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = CHTTPParser;
@@ -3616,7 +3613,7 @@
 				DEFINES_MODULE = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				INFOPLIST_FILE = OURsoundboard.xcodeproj/COpenSSL_Info.plist;
+				INFOPLIST_FILE = oursoundboard_api.xcodeproj/COpenSSL_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				MODULEMAP_FILE = "Packages/COpenSSL-2.0.1/COpenSSL/include/module.modulemap";
 				OTHER_LDFLAGS = "$(inherited)";
@@ -3629,34 +3626,13 @@
 			};
 			name = Debug;
 		};
-		"___DebugConf_OURsoundboard" /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/**",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = (
-					"/Users/xavierdjohnson/Work/oursoundboard_api/Packages/COpenSSL-2.0.1/COpenSSL/include",
-					"/Users/xavierdjohnson/Work/oursoundboard_api/Packages/PerfectHTTPServer-2.0.0/Sources/CHTTPParser/include",
-				);
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
 		"___DebugConf_PerfectHTTP" /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				HEADER_SEARCH_PATHS = "/Users/xavierdjohnson/Work/oursoundboard_api/Packages/COpenSSL-2.0.1/COpenSSL/include";
-				INFOPLIST_FILE = OURsoundboard.xcodeproj/PerfectHTTP_Info.plist;
+				HEADER_SEARCH_PATHS = "/Users/xavierdjohnson/Work/oursoundboard/api/Packages/COpenSSL-2.0.1/COpenSSL/include";
+				INFOPLIST_FILE = oursoundboard_api.xcodeproj/PerfectHTTP_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -3674,10 +3650,10 @@
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
 				HEADER_SEARCH_PATHS = (
-					"/Users/xavierdjohnson/Work/oursoundboard_api/Packages/COpenSSL-2.0.1/COpenSSL/include",
-					"/Users/xavierdjohnson/Work/oursoundboard_api/Packages/PerfectHTTPServer-2.0.0/Sources/CHTTPParser/include",
+					"/Users/xavierdjohnson/Work/oursoundboard/api/Packages/COpenSSL-2.0.1/COpenSSL/include",
+					"/Users/xavierdjohnson/Work/oursoundboard/api/Packages/PerfectHTTPServer-2.0.0/Sources/CHTTPParser/include",
 				);
-				INFOPLIST_FILE = OURsoundboard.xcodeproj/PerfectHTTPServer_Info.plist;
+				INFOPLIST_FILE = oursoundboard_api.xcodeproj/PerfectHTTPServer_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -3694,7 +3670,7 @@
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				INFOPLIST_FILE = OURsoundboard.xcodeproj/PerfectLib_Info.plist;
+				INFOPLIST_FILE = oursoundboard_api.xcodeproj/PerfectLib_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -3711,8 +3687,8 @@
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				HEADER_SEARCH_PATHS = "/Users/xavierdjohnson/Work/oursoundboard_api/Packages/COpenSSL-2.0.1/COpenSSL/include";
-				INFOPLIST_FILE = OURsoundboard.xcodeproj/PerfectNet_Info.plist;
+				HEADER_SEARCH_PATHS = "/Users/xavierdjohnson/Work/oursoundboard/api/Packages/COpenSSL-2.0.1/COpenSSL/include";
+				INFOPLIST_FILE = oursoundboard_api.xcodeproj/PerfectNet_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -3729,7 +3705,7 @@
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
-				INFOPLIST_FILE = OURsoundboard.xcodeproj/PerfectThread_Info.plist;
+				INFOPLIST_FILE = oursoundboard_api.xcodeproj/PerfectThread_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
@@ -3741,9 +3717,27 @@
 			};
 			name = Debug;
 		};
+		"___DebugConf_oursoundboard_api" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				HEADER_SEARCH_PATHS = (
+					"/Users/xavierdjohnson/Work/oursoundboard/api/Packages/COpenSSL-2.0.1/COpenSSL/include",
+					"/Users/xavierdjohnson/Work/oursoundboard/api/Packages/PerfectHTTPServer-2.0.0/Sources/CHTTPParser/include",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
 		"_____Release_" /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = __PBXFileRef_OURsoundboard.xcodeproj/Configs/Project.xcconfig /* OURsoundboard.xcodeproj/Configs/Project.xcconfig */;
+			baseConfigurationReference = __PBXFileRef_oursoundboard_api.xcodeproj/Configs/Project.xcconfig /* oursoundboard_api.xcodeproj/Configs/Project.xcconfig */;
 			buildSettings = {
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/**";
 			};
@@ -3751,7 +3745,7 @@
 		};
 		"_______Debug_" /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = __PBXFileRef_OURsoundboard.xcodeproj/Configs/Project.xcconfig /* OURsoundboard.xcodeproj/Configs/Project.xcconfig */;
+			baseConfigurationReference = __PBXFileRef_oursoundboard_api.xcodeproj/Configs/Project.xcconfig /* oursoundboard_api.xcodeproj/Configs/Project.xcconfig */;
 			buildSettings = {
 				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/**";
 			};
@@ -3760,7 +3754,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		"___RootConfs_" /* Build configuration list for PBXProject "OURsoundboard" */ = {
+		"___RootConfs_" /* Build configuration list for PBXProject "oursoundboard_api" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				"_______Debug_" /* Debug */,
@@ -3783,15 +3777,6 @@
 			buildConfigurations = (
 				"___DebugConf_COpenSSL" /* Debug */,
 				_ReleaseConf_COpenSSL /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		"_______Confs_OURsoundboard" /* Build configuration list for PBXNativeTarget "OURsoundboard" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				"___DebugConf_OURsoundboard" /* Debug */,
-				_ReleaseConf_OURsoundboard /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
@@ -3837,6 +3822,15 @@
 			buildConfigurations = (
 				"___DebugConf_PerfectThread" /* Debug */,
 				_ReleaseConf_PerfectThread /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_oursoundboard_api" /* Build configuration list for PBXNativeTarget "oursoundboard_api" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_oursoundboard_api" /* Debug */,
+				_ReleaseConf_oursoundboard_api /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

@@ -17,7 +17,7 @@
                BlueprintIdentifier = "______Target_PerfectLib"
                BuildableName = "PerfectLib.framework"
                BlueprintName = "PerfectLib"
-               ReferencedContainer = "container:OURsoundboard.xcodeproj">
+               ReferencedContainer = "container:oursoundboard_api.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -31,7 +31,7 @@
                BlueprintIdentifier = "______Target_COpenSSL"
                BuildableName = "COpenSSL.framework"
                BlueprintName = "COpenSSL"
-               ReferencedContainer = "container:OURsoundboard.xcodeproj">
+               ReferencedContainer = "container:oursoundboard_api.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "______Target_PerfectThread"
                BuildableName = "PerfectThread.framework"
                BlueprintName = "PerfectThread"
-               ReferencedContainer = "container:OURsoundboard.xcodeproj">
+               ReferencedContainer = "container:oursoundboard_api.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -59,7 +59,7 @@
                BlueprintIdentifier = "______Target_PerfectNet"
                BuildableName = "PerfectNet.framework"
                BlueprintName = "PerfectNet"
-               ReferencedContainer = "container:OURsoundboard.xcodeproj">
+               ReferencedContainer = "container:oursoundboard_api.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -73,7 +73,7 @@
                BlueprintIdentifier = "______Target_PerfectHTTP"
                BuildableName = "PerfectHTTP.framework"
                BlueprintName = "PerfectHTTP"
-               ReferencedContainer = "container:OURsoundboard.xcodeproj">
+               ReferencedContainer = "container:oursoundboard_api.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -87,7 +87,7 @@
                BlueprintIdentifier = "______Target_CHTTPParser"
                BuildableName = "CHTTPParser.framework"
                BlueprintName = "CHTTPParser"
-               ReferencedContainer = "container:OURsoundboard.xcodeproj">
+               ReferencedContainer = "container:oursoundboard_api.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -101,7 +101,7 @@
                BlueprintIdentifier = "______Target_PerfectHTTPServer"
                BuildableName = "PerfectHTTPServer.framework"
                BlueprintName = "PerfectHTTPServer"
-               ReferencedContainer = "container:OURsoundboard.xcodeproj">
+               ReferencedContainer = "container:oursoundboard_api.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -112,10 +112,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "______Target_OURsoundboard"
-               BuildableName = "OURsoundboard"
-               BlueprintName = "OURsoundboard"
-               ReferencedContainer = "container:OURsoundboard.xcodeproj">
+               BlueprintIdentifier = "______Target_oursoundboard_api"
+               BuildableName = "oursoundboard_api"
+               BlueprintName = "oursoundboard_api"
+               ReferencedContainer = "container:oursoundboard_api.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -146,7 +146,7 @@
             BlueprintIdentifier = "______Target_PerfectLib"
             BuildableName = "PerfectLib.framework"
             BlueprintName = "PerfectLib"
-            ReferencedContainer = "container:OURsoundboard.xcodeproj">
+            ReferencedContainer = "container:oursoundboard_api.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>

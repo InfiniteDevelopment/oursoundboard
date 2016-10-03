@@ -1,4 +1,5 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "11E9AEB47457EF272DDE4635CA0DEB9613BCCE6C",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
@@ -6,19 +7,26 @@
     "6F1260245BD69EFA9A05D126763C86280510C6E1" : 9223372036854775807,
     "DCD994A20FFF69E73D7DE28EB512BBF004934554" : 9223372036854775807,
     "615FD99B652E80AC2E813EEEE7964BA10A9886D5" : 9223372036854775807,
+    "11E9AEB47457EF272DDE4635CA0DEB9613BCCE6C" : 9223372036854775807,
     "9197B75B1BC29921D6E3B1CCDC2B258350009F3A" : 9223372036854775807
   },
-  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "66D73EC2-603A-4211-BBC6-5E5BDC47A8FC",
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D71F7AAA-743E-478E-AFD9-71FB3B4024E8",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "6F1260245BD69EFA9A05D126763C86280510C6E1" : "oursoundboard_api\/Packages\/PerfectNet-2.0.0\/",
-    "DCD994A20FFF69E73D7DE28EB512BBF004934554" : "oursoundboard_api\/Packages\/COpenSSL-2.0.1\/",
-    "615FD99B652E80AC2E813EEEE7964BA10A9886D5" : "oursoundboard_api\/Packages\/PerfectThread-2.0.1\/",
-    "9197B75B1BC29921D6E3B1CCDC2B258350009F3A" : "oursoundboard_api\/Packages\/PerfectHTTP-2.0.2\/"
+    "6F1260245BD69EFA9A05D126763C86280510C6E1" : "oursoundboard\/api\/Packages\/PerfectNet-2.0.0\/",
+    "DCD994A20FFF69E73D7DE28EB512BBF004934554" : "oursoundboard\/api\/Packages\/COpenSSL-2.0.1\/",
+    "615FD99B652E80AC2E813EEEE7964BA10A9886D5" : "oursoundboard\/api\/Packages\/PerfectThread-2.0.1\/",
+    "11E9AEB47457EF272DDE4635CA0DEB9613BCCE6C" : "oursoundboard\/",
+    "9197B75B1BC29921D6E3B1CCDC2B258350009F3A" : "oursoundboard\/api\/Packages\/PerfectHTTP-2.0.2\/"
   },
-  "DVTSourceControlWorkspaceBlueprintNameKey" : "OURsoundboard",
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "oursoundboard_api",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "OURsoundboard.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "api\/oursoundboard_api.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/InfiniteDevelopment\/oursoundboard.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "11E9AEB47457EF272DDE4635CA0DEB9613BCCE6C"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/PerfectlySoft\/Perfect-Thread.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
